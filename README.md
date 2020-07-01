@@ -1,5 +1,7 @@
 ## カラーミーショップAPIのサンプル
 
+> JSON Sample https://codecamp.o-namae.com/color_me_shop_api_demo_code03.php
+
 1. レンタルサーバーなどにPHPファイルの設定（カラーミーFTPはPHP❌）
 2. カラーミー デベロッパーで id と key を取得
 3. PHPファイルの作成
