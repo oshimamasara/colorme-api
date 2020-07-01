@@ -1,0 +1,25 @@
+<div id="contents"></div>
+
+<script>
+    $(function() {
+      $.getJSON('https://codecamp.o-namae.com/colorme_api/02.php', function(data) {
+          //console.log(data['products'][0]['name']);
+
+        var datas = [];
+        for(var i = 0; i < data.products.length; i++){
+          var item = document.createElement('name');
+          item.textContent = data.products[i].name;
+          //console.log(item.textContent);
+
+          datas += '<li>'+ item.textContent + 'は、在庫があります。</li>';
+          //配列に追加 datas.push(item.textContent)
+        }
+        //console.log(datas);
+
+        document.getElementById('contents').innerHTML = datas;
+
+        // 配列を扱う場合　　stockList += '<li>'+ datas[i] + '色は、在庫があります。</li>';
+      });
+    });
+
+</script>
