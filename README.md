@@ -1,5 +1,9 @@
 ## カラーミーショップAPIのサンプル
 
+<img src="img1.jpg" width="100%">
+<img src="img2.jpg" width="100%">
+<img src="img3.jpg" width="100%">
+
 > JSON Sample https://codecamp.o-namae.com/color_me_shop_api_demo_code03.php
 
 1. レンタルサーバーなどにPHPファイルの設定（カラーミーFTPはPHP❌）
